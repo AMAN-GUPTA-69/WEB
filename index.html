@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STARLITE website</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./trace.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="active" data-header>
+    <div class="container">
+
+      <!-- 
+        - overlay
+      -->
+      <div class="overlay" data-overlay></div>
+      
+      <div>
+        <a href="#" class="logo">
+          <img src="./logo.png" alt="" 
+            width="155" height="100"/>
+        </a>
+      </div>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#podcast" class="navbar-link">Podcast</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Video</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Favourite</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-actions">
+
+          <button class="navbar-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <button class="navbar-btn">
+            <ion-icon name="log-in-outline"></ion-icon>
+          </button>
+
+          <button class="navbar-btn">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+          <button class="btn">
+            <ion-icon name="Account"></ion-icon>
+
+            <span>Me</span>
+          </button>
+
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+          <img src="./assets/images/hero-title.png" alt="Podcast" class="hero-title">
+
+          <p class="hero-text">
+            Be your own style!
+          </p>
+
+          <div class="hero-btn-group">
+
+            <button class="btn btn-primary">
+              <ion-icon name="headset"></ion-icon>
+
+              <span>Listen Now</span>
+            </button>
+
+              <a href="#" class="btn-link">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+
+                <span>SoundCloud</span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-banner"></div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PODCAST
+      -->
+
+      <section class="podcast" id="podcast">
+        <ul class="podcast-list">
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-1.png" alt="Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-01-01">Jan 01, 2023</time>
+
+                  <p class="pod-epi">Episodes: 01</p>
+                </div>
+
+                <h3 class="h3 card-title">Food tourism- Gateway to taste the authentic street delicacies of India</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-2.png" alt="Ask Unladylike: Late Bloomer with Forever 35">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-01-17">Jan 17, 2023</time>
+
+                  <p class="pod-epi">Episodes: 02</p>
+                </div>
+
+                <h3 class="h3 card-title">Mary Shelley: The teenager behind Frankenstein</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-3.png" alt="How to Effectively Incentivize Team Members">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-02-01">Feb 01, 2023</time>
+
+                  <p class="pod-epi">Episodes: 03</p>
+                </div>
+
+                <h3 class="h3 card-title">The transition of music from classical romantics to jazzy blues: Evolution of music</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-4.png" alt="How to go from Start-Up to Scale-Up">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-02-17">Feb 17, 2023</time>
+
+                  <p class="pod-epi">Episodes: 04</p>
+                </div>
+
+                <h3 class="h3 card-title">Is the Art of Story-Telling the Most Superior Form of Art?</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-5.png" alt="Deadbuttons – Tired of You | Live at Club Heavy">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-03-01">March 01, 2023</time>
+
+                  <p class="pod-epi">Episodes: 05</p>
+                </div>
+
+                <h3 class="h3 card-title">A Study on Existing Misogyny in Bollywood</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-6.png" alt="Boogie Through the Universe with SOWO">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-03-17">March 17, 2023</time>
+
+                  <p class="pod-epi">Episodes: 06</p>
+                </div>
+
+                <h3 class="h3 card-title">Media Dissent or Descent — Post-2014 Indian General Elections</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-7.png" alt="Glittering Blackness, Fall – 4 | Live at Club Heavy">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-42-01">April 01, 2023</time>
+
+                  <p class="pod-epi">Episodes: 07</p>
+                </div>
+
+                <h3 class="h3 card-title">Netflix vs Theatre- How the Streaming Giant Is Forcing Movie Theatres to Have a Run for Their Money</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-8.png" alt="The Meditative Photos of Chaelinjane">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2023-04-17">April 17, 2023</time>
+
+                  <p class="pod-epi">Episodes: 08</p>
+                </div>
+
+                <h3 class="h3 card-title">India’s Champions and the Land of the Rising Sun</h3>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" style="background-image: url('./assets/images/newsletter-bg.png');">
+        <div class="newsletter-card">
+          <div class="card-content">
+            <h3 class="h3 card-title" style="color:black;">Sign Up For Our Newsletter. It’s Free!</h3>
+          </div>
+
+          <form action="" class="card-form" data-form style="border-style: solid; border-color: black;">
+            <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
+              data-input>
+
+            <button type="submit" class="btn btn-primary" disabled data-submit style="border-style: solid; border-color: black;">Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./logo.png" alt="" 
+            width="160" height="100"/> 
+          </a>
+
+          <p class="footer-text">
+            Be your own style!
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-link-title">Start A Conversation</p>
+          </li>
+
+          <li>
+            <a href="mailto:starlite@hotmail.com" class="footer-link">starlite@hotmail.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+919367878905" class="footer-link">+919367878905</a>
+          </li>
+
+          <li>
+            <a href="tel:+918578789085" class="footer-link">+91 (857) 878-9085</a>
+          </li>
+
+        </ul>
+
+        <div class="social-list-box">
+
+          <p class="social-title">Follow Us On:</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-apple"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2023 <a href="#">STARLITE</a>. All Rights Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
